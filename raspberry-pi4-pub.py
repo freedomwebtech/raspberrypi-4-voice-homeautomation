@@ -9,4 +9,4 @@ def pub():
     client.connect(mqttBroker)
     client.publish("test2",(bytes("status",'utf-8')))     
 
-sub()    
+pub()    
